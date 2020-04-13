@@ -10,7 +10,6 @@ h3 {
 }
 
 .elephant-container {
-    background: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,7 +18,7 @@ h3 {
 .elephant-container > div {
     width: 300px;
     margin: 15px;
-    background: #efefef;
+    background: white;
     padding: 1em;
 }
 
