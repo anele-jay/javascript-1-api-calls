@@ -30,9 +30,9 @@ function displayElephants(elephants) {
     for (let i = 0; i < elephants.length; i++) {
         //some of the result objects have only id properties, nothing else
         // check if the object has a name property,
-        // if it doesn't, skip the result of the code in this iteration of the loop and go to the next object
+        // if it doesn't, skip the rest of the code in this iteration of the loop and go to the next object
         if (!elephants[i].name) {
-            // continue will skip the remaining code
+            // continue will skip the remaining code and return to the top of the loop
             continue;
         }
 
