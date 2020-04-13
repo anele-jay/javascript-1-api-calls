@@ -1,0 +1,40 @@
+body {
+    background: #ebebeb;
+    padding: 20px 40px;
+    font-family: sans-serif;
+}
+
+h1,
+h3 {
+    color: rgb(11, 91, 133);
+}
+
+.elephant-container {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elephant-container > div {
+    width: 300px;
+    margin: 15px;
+    background: #efefef;
+    padding: 1em;
+}
+
+.elephant-container > div .image {
+    height: 250px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.elephant-container > div a {
+    padding: 0.5em;
+    display: block;
+    text-decoration: none;
+    background: white;
+    text-align: center;
+    color: white;
+    background: rgb(11, 91, 133);
+}
