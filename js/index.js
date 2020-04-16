@@ -53,7 +53,7 @@ function displayElephants(elephants) {
         html += `<div>
                     <div class="image" style="background-image: url(${elephants[i].image});"></div>
                     <h3>${elephants[i].name}</h3>
-                    <p>Date of birth: ${elephants[i].name}</p>                    
+                    <p>Date of birth: ${elephants[i].dob}</p>                    
                     <p>Date of death: ${dateOfDeath}</p>
                     <a href="detail.html?name=${elephants[i].name}">Details</a>
                 </div>`;
